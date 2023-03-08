@@ -4,7 +4,7 @@
 
 WD20P online library is a react application inspired by one of our earlier static website projects in the bootcamp where we made hard-coded book library using HTML and CSS. It is based on Kadir Media's [YouTube Tutorial.](https://www.youtube.com/watch?v=oU2c_02YaME)
 
-## What are the features of CryptoChasers
+## What are the features of WD20P Online Library
 
 When you open the application, you will be directed to the homepage where 40 books from an example-data API are displayed. You have the option to add or remove books from your favorites by clicking a button that will display dynamic text based on whether the book is already in your favorites or not. Navigation to both the favorites page and the book details page is enabled through the use of react-router-dom v6.
 
