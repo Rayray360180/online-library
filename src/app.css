@@ -5,7 +5,7 @@
   justify-content: space-around;
   background-color: #242526;
   color: white;
-  height: 10vh;
+  height: 8vh;
   text-align: center;
 }
 
@@ -81,7 +81,7 @@ button {
 }
 
 .favorites {
-  min-height: 80vh;
+  min-height: 84vh;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -90,11 +90,19 @@ button {
 }
 
 .bookDesc {
-  min-height: 80vh;
+  min-height: 84vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .bookDesc {
+    flex-direction: column;
+    padding: 40px;
+  }
 }
 
 .bookDetails {
@@ -103,6 +111,11 @@ button {
 
 .bookImg {
   padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .footer {
@@ -113,7 +126,7 @@ button {
   background-color: #242526;
   color: white;
   text-align: center;
-  height: 10vh;
+  height: 8vh;
 }
 
 .noFavorites {
@@ -121,7 +134,7 @@ button {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 80vh;
+  height: 84vh;
 }
 
 .noFavorites a {

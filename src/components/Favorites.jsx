@@ -15,7 +15,7 @@ const Favorites = () => {
       {favorites.length > 0 ? (
         favorites.map((book) => (
           <div key={book.id} className="book">
-            <div>
+            <div style={{ marginBottom: 10 }}>
               <h3>{book.title}</h3>
             </div>
             <div>

@@ -18,6 +18,8 @@ const BookDesc = () => {
       .catch((err) => console.log(err));
   }, [id]);
 
+  console.log(book);
+
   return (
     <div className="bookDesc">
       <div className="bookImg">
@@ -27,10 +29,10 @@ const BookDesc = () => {
       <div className="bookDetails">
         <h2>Description</h2>
         <p>{book?.description}</p>
-        <h2>Authors</h2>
-        <p>{book?.authors}</p>
+        <h2 style={{ marginTop: 10 }}>Authors</h2>
+        <p style={{ marginBottom: 10 }}>{book?.authors}</p>
         <h2>Genres</h2>
-        <p>{book?.genre}</p>
+        <p>{book?.genres}</p>
       </div>
     </div>
   );

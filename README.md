@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# WD20P Library
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![WD20PLibrary](https://i.ibb.co/0FtcLrm/WD20-P-Library.png)
 
-## Available Scripts
+WD20P online library is a react application inspired by one of our earlier static website projects in the bootcamp where we made hard-coded book library using HTML and CSS. It is based on Kadir Media's [YouTube Tutorial.](https://www.youtube.com/watch?v=oU2c_02YaME)
 
-In the project directory, you can run:
+## What are the features of CryptoChasers
+
+When you open the application, you will be directed to the homepage where 40 books from an example-data API are displayed. You have the option to add or remove books from your favorites by clicking a button that will display dynamic text based on whether the book is already in your favorites or not. Navigation to both the favorites page and the book details page is enabled through the use of react-router-dom v6.
+
+## What went well
+
+Being one of the first react tutorial that I coded along, this video helped me understand react concepts better. It also utilizes context API to manage the states of the favorite books.
+
+## What are the challenges encountered
+
+Since this tutorial was on my early stages as a react developer, I was a little bit confused with the concepts especially where contextAPI is concerned.
+
+## Codebase differences
+
+Being fairly new in React at the time there are very little codebase differences compared to the actual tutorial albeit some minor styling adjustments.
+
+## Future improvements
+
+A fairly simple project that served its purpose to make me understand react concepts, there will be no future improvement in this app.
+
+### Liked this repository?
+
+Please don't forget to leave a ⭐🙏🏻!
+
+## Run this app on your local machine
+
+In order to run this application on your local machine, you can run the following commands on the terminal:
+
+### `npm install`
+
+Installs the required package dependencies
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the client in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

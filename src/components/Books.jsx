@@ -31,7 +31,7 @@ const Books = () => {
     <div className="bookList">
       {books.map((book) => (
         <div key={book.id} className="book">
-          <div>
+          <div style={{ marginBottom: 10 }}>
             <h3>{book.title}</h3>
           </div>
           <div>
