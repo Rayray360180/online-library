@@ -44,11 +44,11 @@ const Books = () => {
           <div>
             {favoritesChecker(book.id) ? (
               <button onClick={() => removeFromFavorites(book.id)}>
-                Remove from Favorites
+                Удалить из Избранного
               </button>
             ) : (
               <button onClick={() => addToFavorites(book)}>
-                Add to Favorites
+                Добавить в избранное
               </button>
             )}
           </div>

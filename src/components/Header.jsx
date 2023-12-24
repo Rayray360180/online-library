@@ -7,12 +7,12 @@ const Header = () => {
       <Link to="/">
         <div className="titleContainer">
           <MenuBookIcon className="headerIcon" />
-          <h1>React Online Library</h1>
+          <h1>Онлайн библиотека "№ 7"</h1>
         </div>
       </Link>
       <div className="favoriteContainer">
         <Link to="/favorites">
-          <h1>Favorite Books</h1>
+          <h1>Избранные книги</h1>
         </Link>
       </div>
     </div>

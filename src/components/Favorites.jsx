@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useAppContext } from "./context/appContext";
+import QRCode from "qrcode.react"; // Добавляем импорт
 
 const Favorites = () => {
   const { favorites, addToFavorites, removeFromFavorites } = useAppContext();
 
   const favoritesChecker = (id) => {
-    const boolean = favorites.some((book) => book.id === id);
-    return boolean;
+    return favorites.some((book) => book.id === id);
   };
 
   return (
@@ -23,12 +23,15 @@ const Favorites = () => {
             </div>
             <div>
               {favoritesChecker(book.id) ? (
-                <button onClick={() => removeFromFavorites(book.id)}>
-                  Remove from Favorites
-                </button>
+                <>
+                  <button onClick={() => removeFromFavorites(book.id)}>
+                    Удалить из Избранного
+                  </button>
+                  <QRCode value={`http://localhost:3000/book/${book.id}`} />
+                </>
               ) : (
                 <button onClick={() => addToFavorites(book)}>
-                  Add to Favorites
+                  Добавить в Избранное
                 </button>
               )}
             </div>
@@ -37,11 +40,11 @@ const Favorites = () => {
       ) : (
         <>
           <div className="noFavorites">
-            <h2>You don't have any favorites yet!</h2>
+            <h2>У вас нет избранных!</h2>
           </div>
           <div className="noFavorites">
             <Link to="/">
-              <h2>Go back to main menu?</h2>
+              <h2>Вернуться в главное меню?</h2>
             </Link>
           </div>
         </>
