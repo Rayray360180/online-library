@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WD20P Library
 
 ![WD20PLibrary](https://i.ibb.co/0FtcLrm/WD20-P-Library.png)
@@ -43,3 +44,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+=======
+# online-library
+Онлайн-библиотека где взаимодействие происходит по QR-code. It is based on Kadir Media's YouTube Tutorial.
+>>>>>>> 88743ced28188a0c6145f354615e89f5cf14bffd
