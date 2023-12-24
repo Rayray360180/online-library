@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # WD20P Library
 
 ![WD20PLibrary](https://i.ibb.co/0FtcLrm/WD20-P-Library.png)
